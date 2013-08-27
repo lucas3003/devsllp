@@ -1,0 +1,2 @@
+device(ai, INST_IO, sllpAi, "sllpAi")
+device(ao, INST_IO, sllpAo, "sllpAo")

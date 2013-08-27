@@ -1,0 +1,8 @@
+record(ao, "aoExample")
+{
+	field(DESC, "Analog output")
+	field(DTYP, "sllpAo")
+	field(OUT, "@asyn($(PORT),2,$(TIMEOUT))Test")
+	field(EGU, "Counts")
+	field(SCAN, "Passive")
+}
